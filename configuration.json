@@ -1,0 +1,33 @@
+[
+  {
+    "key": "Username",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Zivver Username",
+      "description": "Username of the SMTP user (smtp user toggle in Zivver, should be a GUID like username) ",
+      "required": true
+    }
+  },
+  {
+    "key": "Password",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "type": "password",
+      "label": "password",
+      "description": "Password of the SMTP user",
+      "required": true
+    }
+  },
+  {
+    "key": "IsDebug",
+    "type": "checkbox",
+    "defaultValue": true,
+    "templateOptions": {
+      "label": "Toggle debug logging",
+      "description": "When toggled, debug logging will be displayed",
+      "required": false
+    }
+  }
+]

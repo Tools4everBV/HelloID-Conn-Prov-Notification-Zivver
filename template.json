@@ -1,0 +1,61 @@
+[
+  {
+    "key": "From",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "From",
+      "description": "Fill in the From Address, user configured must have access to this mailbox",
+      "required": true
+    }
+  },
+  {
+    "key": "To",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "To",
+      "description": "Fill in the To Address",
+      "required": true
+    }
+  },
+  {
+    "key": "PhoneNumber",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "PhoneNumber",
+      "description": "Must be in format +31612345678"
+    }
+  },
+  {
+    "key": "Subject",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Subject",
+      "description": "Mail subject",
+      "required": true
+    }
+  },
+  {
+    "key": "BodyContent",
+    "type": "textarea",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Mail Message",
+      "placeholder": "Please enter some text",
+      "required": false,
+      "rows": 15
+    }
+  },
+  {
+    "key": "HTML",
+    "type": "checkbox",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Is raw HTML",
+      "description": "Must be checked if raw HTML is pasted above"
+    }
+  }
+]
