@@ -36,7 +36,6 @@ For this connector we have to connect to the on-premise Agent to be able to send
 Setting up Zivver notifications is relatively easy. Zivvers DNS settings for the SMTP server must be configured and accessible from the agent server
 Currently we only need user credentials 
 
-* Zivvers DNS settings for the SMTP server must be configured and accessible from the agent server
 * Currently we only need user credentials. Make sure that this is an SMTP user in Zivver, with a GUID-like username.
 
 Additionally, we can send an extra phonenumber header for using SMS authentication. In this case we also need a source field where phonenumber should be mapped as '+31612345678'
